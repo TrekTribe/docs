@@ -1,1 +1,52 @@
 site_name: TrekTribe
+
+theme:
+  logo: img/trektribe-logo-transparent.PNG
+  favicon: img/trektribe-logo-transparent.PNG
+  features:
+    - navigation.tabs
+    - navigation.expand
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - i18n:
+      default_language: it
+      languages:
+        it:
+          name: Italiano
+          build: true
+        en:
+          name: English
+          build: false
+      nav_translations:
+        it:
+          Quotes: Citazioni
+          Faq: FAQ
+          Gpx: GPX
+
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - pymdownx.tabbed
+
+copyright: Apache Licence &copy TrekTribe
