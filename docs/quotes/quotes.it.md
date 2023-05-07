@@ -1,3 +1,0 @@
-# Citazioni
-
-citazioni

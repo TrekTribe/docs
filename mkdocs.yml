@@ -35,9 +35,9 @@ plugins:
           build: false
       nav_translations:
         it:
-          Quotes: Citazioni
-          Faq: FAQ
-          Gpx: GPX
+          # Quotes: Citazioni
+          # Faq: FAQ
+          # Gpx: GPX
 
 
 markdown_extensions:
